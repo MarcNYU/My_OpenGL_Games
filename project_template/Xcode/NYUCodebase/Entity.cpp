@@ -7,3 +7,16 @@
 //
 
 #include "Entity.hpp"
+class Entity {
+public:
+    void Draw();
+    float x;
+    float y;
+    float rotation;
+    int textureID;
+    float width;
+    float height;
+    float speed;
+    float direction_x;
+    float direction_y;
+};
